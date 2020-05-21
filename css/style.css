@@ -1,0 +1,47 @@
+div#app {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+div#app ul {
+    list-style: none;
+}
+
+div#app ul li {
+    margin-top: 3px;
+}
+
+div#app ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+div#app input {
+    width: 220px;
+    border: 1px solid #E6ECF0;
+    height: 34px;
+    padding: 0 30px 0 12px;
+    border-radius: 16px;
+    color: #667581;
+    font-size: 13px;
+    background: #f5f8fa;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+div#app button {
+    height: 32px;
+    background: #3BB9E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+    border: 0;
+    border-radius: 16px;
+    outline: none;
+}
